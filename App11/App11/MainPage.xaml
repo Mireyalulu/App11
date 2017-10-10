@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App11"
+             x:Class="App11.MainPage">
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Imagen local From Source" HorizontalTextAlignment="Center" FontSize="Medium"/>
+            <BoxView Color="Pink" VerticalOptions="FillAndExpand" />
+            <Image Source="visual.jpg" Aspect="AspectFit" HorizontalOptions="Center" ></Image>
+            <Label Text="Like" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="Me gusta" x:Name="HDCsumar"></Button>
+            <Label Text="Dislike" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="No Me gusta" x:Name="HDCsumar1"></Button>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Imagen local From Source" HorizontalTextAlignment="Center" />
+            <BoxView Color="Pink" VerticalOptions="FillAndExpand" />
+            <Image Source="tesh.jpg" Aspect="AspectFill" HorizontalOptions="Center" ></Image>
+            <Label Text="Like" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="Me gusta" x:Name="HDCsumar2"></Button>
+            <Label Text="Dislike" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="No Me gusta" x:Name="HDCsumar3"></Button>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Imagen local From Source" HorizontalTextAlignment="Center" />
+            <BoxView Color="Pink" VerticalOptions="Fill" />
+            <Image Source="samsung.jpg" Aspect="Fill" HorizontalOptions="Center" ></Image>
+            <Label Text="Like" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="Me gusta" x:Name="HDCsumar4"></Button>
+            <Label Text="Dislike" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="No Me gusta" x:Name="HDCsumar5"></Button>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Imagen From Uri" HorizontalTextAlignment="Center" />
+            <BoxView Color="Pink" VerticalOptions="Fill" />
+            <Image x:Name="ima" Aspect="Fill" HorizontalOptions="Center"/>
+        <ActivityIndicator BindingContext="{x:Reference ima}" IsRunning="{Binding}" BackgroundColor="Aqua"/>
+            <Label Text="Like" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="Me gusta" x:Name="HDCsumar6"></Button>
+            <Label Text="Dislike" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="No Me gusta" x:Name="HDCsumar7"></Button>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Imagen From Uri" HorizontalTextAlignment="Center" />
+            <BoxView Color="Pink" VerticalOptions="Fill" />
+            <Image x:Name="imag" Aspect="Fill" HorizontalOptions="Center"/>
+            <ActivityIndicator BindingContext="{x:Reference imag}" IsRunning="{Binding}" BackgroundColor="Aqua"/>
+            <Label Text="Like" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="Me gusta" x:Name="HDCsumar8"></Button>
+            <Label Text="Dislike" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="No Me gusta" x:Name="HDCsumar9"></Button>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Imagen From Uri" HorizontalTextAlignment="Center" />
+            <BoxView Color="Pink" VerticalOptions="Fill" />
+            <Image x:Name="imag1" Aspect="Fill" HorizontalOptions="Center"/>
+            <ActivityIndicator BindingContext="{x:Reference imag1}" IsRunning="{Binding}" BackgroundColor="Aqua"/>
+            <Label Text="Like" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="Me gusta" x:Name="HDCsumar10"></Button>
+            <Label Text="Dislike" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="No Me gusta" x:Name="HDCsumar11"></Button>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Imagen From Uri" HorizontalTextAlignment="Center" />
+            <BoxView Color="Pink" VerticalOptions="Fill" />
+            <Image x:Name="imag2" Aspect="Fill" HorizontalOptions="Center"/>
+            <ActivityIndicator BindingContext="{x:Reference imag2}" IsRunning="{Binding}" BackgroundColor="Aqua"/>
+            <Label Text="Like" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="Me gusta" x:Name="HDCsumar12"></Button>
+            <Label Text="Dislike" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="No Me gusta" x:Name="HDCsumar13"></Button>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Imagen From Uri" HorizontalTextAlignment="Center" />
+            <BoxView Color="Pink" VerticalOptions="Fill" />
+            <Image x:Name="imag3" Aspect="Fill" HorizontalOptions="Center"/>
+            <ActivityIndicator BindingContext="{x:Reference imag3}" IsRunning="{Binding}" BackgroundColor="Aqua"/>
+            <Label Text="Like" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="Me gusta" x:Name="HDCsumar14"></Button>
+            <Label Text="Dislike" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="No Me gusta" x:Name="HDCsumar15"></Button>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Imagen local From Source" HorizontalTextAlignment="Center" />
+            <BoxView Color="Pink" VerticalOptions="Fill" />
+            <Image Source="apps.jpg" Aspect="Fill" HorizontalOptions="Center" ></Image>
+            <Label Text="Like" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="Me gusta" x:Name="HDCsumar16"></Button>
+            <Label Text="Dislike" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="No Me gusta" x:Name="HDCsumar17"></Button>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Imagen local From Source" HorizontalTextAlignment="Center" />
+            <BoxView Color="Pink" VerticalOptions="Fill" />
+            <Image Source="apple.jpg" Aspect="Fill" HorizontalOptions="Center" ></Image>
+            <Label Text="Like" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="Me gusta" x:Name="HDCsumar18"></Button>
+            <Label Text="Dislike" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Pink"></Label>
+            <Button Text="No Me gusta" x:Name="HDCsumar19"></Button>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Pink">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Button x:Name="consulat" Text="Consultar" Clicked="consulat_Clicked"/>
+            <Label x:Name="like" />
+            <Label x:Name="dislike" />
+        </StackLayout>
+    </ContentPage>
+
+
+
+
+</CarouselPage>
+
